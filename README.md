@@ -1,5 +1,4 @@
 Guide to generate Octra Wallet and claiming $oct faucet.
-# Octra Wallet Generator
 
 ## 🧱 1. Clone the repository
 
@@ -18,8 +17,6 @@ For Ubuntu with UFW:
 sudo ufw allow 8888/tcp
 sudo ufw reload
 ```
-
-If you’re using a cloud VPS provider like AWS, DigitalOcean, or GCP, also make sure their security group or firewall rules allow inbound traffic on port 8888.
 
 ## ⚙️ 3. Install Bun (if not already installed)
 
@@ -57,21 +54,18 @@ bun run build
 bun start
 ```
 
-By default, the app runs on:  
-[http://<YOUR_VPS_IP>:8888](http://<YOUR_VPS_IP>:8888)
-
 ## 🌐 7. Access it from your browser
 
 Open your browser and visit:
 
-```
-http://<YOUR_VPS_IP>:8888
+For VPS users, visit: `http://YOUR_VPS_IP:8888`
+Replace YOUR_VPS_IP with your actual VPS IP.
 
-OR
+OR If you are running on local machine just visit: `http://localhost:8888`
+- Click **Generate New Wallet**
+- Scroll down to view your wallet info; **store safely mnemonic (12 words) DON'T SHARE WITH ANYONE.**
+- Copy your Octra address (the one that starts with `oct...`) and use it to receive $OCT from the faucet
 
-http://localhost:8888
-```
-If you are running on local machine.
 
 ---
 
