@@ -1,5 +1,7 @@
 # Guide to generate Octra Wallet and claiming $oct faucet.
 
+## 📹 Video guide: https://youtu.be/j-mEG_s3eB4
+
 ## 🧱 1. Clone the repository
 
 ```bash
