@@ -1,4 +1,4 @@
-Guide to generate Octra Wallet and claiming $oct faucet.
+# Guide to generate Octra Wallet and claiming $oct faucet.
 
 ## 🧱 1. Clone the repository
 
